@@ -1,22 +1,24 @@
 # dy2sc
-UserScript for Scrapbox which converts [Dynalist](https://dynalist.io)'s format to [Scrapbox](https://scrapbox.io/)'s format.
+UserScript for Scrapbox which converts [Dynalist](https://dynalist.io)'s [format](https://help.dynalist.io/article/90-formatting-reference) to [Scrapbox](https://scrapbox.io/)'s [format](https://scrapbox.io/help/Syntax).
 
-Only those exported in plain text format can be converted.
-Language of the code is JavaScript.
-日本語による詳しい説明は[こちら](http://ich.hatenadiary.com/entry/dynalist-to-scrapbox-userscript)。
+Only those exported from Dynalist in plain text format can be converted.
+
+Language of `dy2sc.js` is JavaScript.
+
+日本語による詳しい説明は[こちら](http://ich.hatenadiary.com/entry/dynalist-to-scrapbox-userscript)です。
 
 ## Before and after conversion
-Only those ten conversions are avaiable.
+Only these ten conversions are avaiable.
 - Heperlink(`[link_text](URL)` --> `[link_text URL]`)
-- Image(`![title_of_image](URL)` --> [title_of_image URL])*2
+- Image link(`![title_of_image](URL)` --> [title_of_image URL])*2
 - Bold(`**hoge**` --> `[* hoge]`)
 - Italic(`__hoge__` --> `[/ hoge]`)
-- Strikethrough(`~~hoge~~` --> `[- hoge]`)
+- Line-through(`~~hoge~~` --> `[- hoge]`)
 - Date
   - `!(2019-09-08)` --> `2019-09-08)`
   - `!(2019-09-08 10:00)` --> `2019-09-08 10:00)`
 - `@` for hashtag(`@hoge` --> `#hoge`)
-- Formula(`$$E=mc^2$$` --> `[$ E=mc^2]`)
+- LaTeX(`$$E=mc^2$$` --> `[$ E=mc^2]`)
 - Each of the four indents on a item(=a line) is converted to one indent.
 
 ## How to setup
