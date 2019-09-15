@@ -1,7 +1,7 @@
 # dy2sc
 UserScript for Scrapbox which converts [Dynalist](https://dynalist.io)'s [format](https://help.dynalist.io/article/90-formatting-reference) to [Scrapbox](https://scrapbox.io/)'s [format](https://scrapbox.io/help/Syntax).
 
-Only those exported from Dynalist in plain text format can be converted.
+Only those exported from Dynalist in [plain text format](https://gyazo.com/acb6e51ab40187b88fc5d57e884cb318) can be converted.
 
 The language of [dy2sc.js](https://github.com/kojp/dy2sc/blob/master/dy2sc.js) is JavaScript.
 
