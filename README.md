@@ -3,7 +3,7 @@ UserScript for Scrapbox which converts [Dynalist](https://dynalist.io)'s [format
 
 Only those exported from Dynalist in plain text format can be converted.
 
-Language of `dy2sc.js` is JavaScript.
+The language of [dy2sc.js](https://github.com/kojp/dy2sc/blob/master/dy2sc.js) is JavaScript.
 
 日本語による詳しい説明は[こちら](http://ich.hatenadiary.com/entry/dynalist-to-scrapbox-userscript)です。
 
@@ -23,7 +23,8 @@ Only these ten conversions are avaiable.
 
 ## How to setup
 1. Open your Scrapbox's `Edit Profile`, [enable User Script](https://gyazo.com/90542aaebf2def0f50e8e461899a5c8e).
-2. Open your [Profile page](https://scrapbox.io/help/Profile_page) of specific Scrapbox project, and write `code:script.js` there. Then, paste the copied code [under it](https://gyazo.com/6fdea7a7f5f0c618fe471884a38e3154).
+2. Copy the code of [dy2sc.js](https://github.com/kojp/dy2sc/blob/master/dy2sc.js).
+3. Open your [Profile page](https://scrapbox.io/help/Profile_page) of specific Scrapbox project, and write `code:script.js` there. Then, paste the copied code [under it](https://gyazo.com/6fdea7a7f5f0c618fe471884a38e3154).
 
 ## How to use
 1. Export Dynalist's contents in [plain text format](https://gyazo.com/acb6e51ab40187b88fc5d57e884cb318). Select "Spaces" as Indentation style.
