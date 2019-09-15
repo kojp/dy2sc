@@ -8,9 +8,13 @@ The language of [dy2sc.js](https://github.com/kojp/dy2sc/blob/master/dy2sc.js) i
 日本語による詳しい説明は[こちら](http://ich.hatenadiary.com/entry/dynalist-to-scrapbox-userscript)です。
 
 ## Before and after conversion
-Only these ten conversions are avaiable.
-- Heperlink(`[link_text](URL)` --> `[link_text URL]`)
-- Image link(`![title_of_image](URL)` --> `[title_of_image URL]`)
+Only these twelve conversions are avaiable.
+- Heperlink
+  - `[link_text](URL)` --> `[link_text URL]`
+  - `[](URL)` --> `[URL]`
+- Image link
+  - `![link_text](URL)` --> `[link_text URL]`
+  - `![](URL)` --> `[URL]`
 - Bold(`**hoge**` --> `[* hoge]`)
 - Italic(`__hoge__` --> `[/ hoge]`)
 - Line-through(`~~hoge~~` --> `[- hoge]`)
