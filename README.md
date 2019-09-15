@@ -10,7 +10,7 @@ Language of `dy2sc.js` is JavaScript.
 ## Before and after conversion
 Only these ten conversions are avaiable.
 - Heperlink(`[link_text](URL)` --> `[link_text URL]`)
-- Image link(`![title_of_image](URL)` --> [title_of_image URL])*2
+- Image link(`![title_of_image](URL)` --> `[title_of_image URL]`)
 - Bold(`**hoge**` --> `[* hoge]`)
 - Italic(`__hoge__` --> `[/ hoge]`)
 - Line-through(`~~hoge~~` --> `[- hoge]`)
