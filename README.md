@@ -15,11 +15,11 @@ Only these ten conversions are avaiable.
 - Italic(`__hoge__` --> `[/ hoge]`)
 - Line-through(`~~hoge~~` --> `[- hoge]`)
 - Date
-  - `!(2019-09-08)` --> `2019-09-08)`
-  - `!(2019-09-08 10:00)` --> `2019-09-08 10:00)`
+  - `!(2019-09-08)` --> `2019-09-08`
+  - `!(2019-09-08 10:00)` --> `2019-09-08 10:00`
 - `@` for hashtag(`@hoge` --> `#hoge`)
 - LaTeX(`$$E=mc^2$$` --> `[$ E=mc^2]`)
-- Each of the four indents on a item(=a line) is converted to one indent.
+- Each four indents on a item(=a line) is converted to one indent.
 
 ## How to setup
 1. Open your Scrapbox's `Edit Profile`, [enable User Script](https://gyazo.com/90542aaebf2def0f50e8e461899a5c8e).
