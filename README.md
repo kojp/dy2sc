@@ -27,11 +27,11 @@ Only these twelve conversions are avaiable.
 ## How to setup
 1. Open your Scrapbox's `Edit Profile`, [enable User Script](https://gyazo.com/90542aaebf2def0f50e8e461899a5c8e).
 2. Copy the code of [dy2sc.js](https://github.com/kojp/dy2sc/blob/master/dy2sc.js).
-3. Open your [Profile page](https://scrapbox.io/help/Profile_page) of a Scrapbox project, and write `code:script.js` there. Then, paste the copied code [under it](https://gyazo.com/6fdea7a7f5f0c618fe471884a38e3154).
+3. Open your [Profile page](https://scrapbox.io/help/Profile_page) of a Scrapbox project, and write `code:script.js` there. Then, paste the copied code [under it](https://gyazo.com/380c4d24ce0f83b10c8fbff78bc47eb3).
 4. Reload the profile page and click [the "Load new UserScript" button](https://gyazo.com/af3f98aa015516f595294ae9f78e3a22).
 
 ## How to use
 1. Export Dynalist's contents in [plain text format](https://gyazo.com/acb6e51ab40187b88fc5d57e884cb318). Select "Spaces" as Indentation style.
-2. Paste it a Scrapbox page.
+2. Paste it to a Scrapbox page.
 3. [Select the texts](https://gyazo.com/b0d0096ba69dc295b2898117a59ee43b), then click "Dynalist" button in popup menu.
 4. They will be [converted](https://gyazo.com/f8868340428acf217a870cc50e9f514b).
