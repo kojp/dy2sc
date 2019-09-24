@@ -33,5 +33,5 @@ Only these twelve conversions are avaiable.
 ## How to use
 1. Export Dynalist's contents in [plain text format](https://gyazo.com/acb6e51ab40187b88fc5d57e884cb318). Select "Spaces" as Indentation style.
 2. Paste it to a Scrapbox page.
-3. [Select the texts](https://gyazo.com/b0d0096ba69dc295b2898117a59ee43b), then click "Dynalist" button in popup menu.
+3. [Select the texts](https://gyazo.com/b0d0096ba69dc295b2898117a59ee43b) excluding the page title, then click "Dynalist" button in popup menu.
 4. They will be [converted](https://gyazo.com/f8868340428acf217a870cc50e9f514b).
