@@ -1,6 +1,6 @@
 # dy2sc
 ## Overview
-UserScript for Scrapbox which converts [Dynalist](https://dynalist.io)'s [format](https://help.dynalist.io/article/90-formatting-reference) to [Scrapbox](https://scrapbox.io/)'s [format](https://scrapbox.io/help/Syntax).
+UserScript for Scrapbox. It converts [Dynalist](https://dynalist.io)'s [format](https://help.dynalist.io/article/90-formatting-reference) to [Scrapbox](https://scrapbox.io/)'s [format](https://scrapbox.io/help/Syntax).
 
 Only those exported in [plain text format](https://gyazo.com/acb6e51ab40187b88fc5d57e884cb318) from Dynalist can be converted.
 
