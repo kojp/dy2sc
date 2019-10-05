@@ -8,7 +8,7 @@ Only those exported in [plain text format](https://gyazo.com/acb6e51ab40187b88fc
 
 ## Before and after conversion
 Only these twelve conversions are avaiable.
-- Heperlink
+- Hyperlink
   - `[link_text](URL)` --> `[link_text URL]`
   - `[](URL)` --> `[URL]`
 - Image link
