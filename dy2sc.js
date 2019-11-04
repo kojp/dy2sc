@@ -16,7 +16,7 @@ scrapbox.PopupMenu.addButton({
 		////Date e.g. !(2019-09-11) or !(2019-09-11 10:00)
 		text=text.split(/\n/).map(line => line.replace(/\!\(([0-9]{4}\-[0-9]{2}\-[0-9]{2}( [0-9]{2}:[0-9]{2})*)\)/g,'$1')).join('\n')
 		////@ for hashtag
-		//@ at the begging of a line
+		//@ at the beginning of a line
 		text=text.split(/\n/).map(line => line.replace(/^(\s*)@/g,'$1#')).join('\n')
 		//@ at after a space
 		text=text.split(/\n/).map(line => line.replace(/([ 　])@/g,'$1#')).join('\n')
