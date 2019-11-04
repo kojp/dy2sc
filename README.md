@@ -27,7 +27,7 @@ Only these twelve conversions are avaiable.
 ## How to setup
 1. Open your Scrapbox's `Edit Profile`, [enable User Script](https://gyazo.com/90542aaebf2def0f50e8e461899a5c8e).
 2. Copy the code of [dy2sc.js](https://github.com/kojp/dy2sc/blob/master/dy2sc.js).
-3. Open your [Profile page](https://scrapbox.io/help/Profile_page) of a Scrapbox project, and write `code:script.js` there. Then, paste the copied code [under it](https://gyazo.com/db85c81dd9e6f880bb1848fbbd15f3d6).
+3. Open your [Profile page](https://scrapbox.io/help/Profile_page) of a Scrapbox project, and write `code:script.js` there. Then, paste the copied code [under it](https://gyazo.com/7e26b2530b40363fecf8a4b368d9eada).
 4. Reload the profile page and click [the "Load new UserScript" button](https://gyazo.com/af3f98aa015516f595294ae9f78e3a22).
 
 ## How to use
