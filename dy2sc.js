@@ -9,7 +9,7 @@
  		text=text.split(/\n/).map(line => line.replace(/!\[([^\]]+)\]\((https?:\/\/[\w/:%#\$&\?\(\)~\.=\+\-]+)\)/g,'[$1 $2]')).join('\n')
  		////Hyperlink with linktext
  		//e.g. [Google](https://www.google.com)
-    	text=text.split(/\n/).map(line => line.replace(/\[([^\]]+)\]\((https?:\/\/[\w/:%#\$&\?\(\)~\.=\+\-]+)\)/g,'[$1 $2]')).join('\n')
+ 		text=text.split(/\n/).map(line => line.replace(/\[([^\]]+)\]\((https?:\/\/[\w/:%#\$&\?\(\)~\.=\+\-]+)\)/g,'[$1 $2]')).join('\n')
  		////Markdown
  		//Bold
  		text=text.split(/\n/).map(line => line.replace(/\*\*([^*]+)\*\*/g,'[* $1]')).join('\n')
