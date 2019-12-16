@@ -12,7 +12,7 @@
  		text=text.split(/\n/).map(line => line.replace(/\[([^\]]+)\]\((https?:\/\/[\w/:%#\$&\?\(\)~\.=\+\-]+)\)/g,'[$1 $2]')).join('\n')
  		////Markdown
  		//Bold
- 		text=text.split(/\n/).map(line => line.replace(/\*\*([^*]+)\*\*/g,'[* $1]')).join('\n')
+ 		text=text.split(/\n/).map(line => line.replace(/\*\*(\*+|[^*]+)\*\*/g,'[* $1]')).join('\n')
  		//Italic
  		text=text.split(/\n/).map(line => line.replace(/\_\_(\_+|[^_]+)\_\_/g,'[/ $1]')).join('\n')
  		//Line strikethrough
