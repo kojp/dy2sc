@@ -11,8 +11,8 @@ Only these twelve conversions are avaiable.
 - Hyperlink
   - `[link_text](URL)` --> `[link_text URL]`
   - `[](URL)` --> `[URL]`
-- Image link
-  - `![link_text](URL)` --> `[link_text URL]`
+- Image
+  - `![alt text](URL)` --> `[alt text URL]`
   - `![](URL)` --> `[URL]`
 - Bold(`**hoge**` --> `[* hoge]`)
 - Italic(`__hoge__` --> `[/ hoge]`)
