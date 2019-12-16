@@ -1,7 +1,7 @@
  scrapbox.PopupMenu.addButton({
  	title: 'Dynalist',  //"Dynalist" is the name of popup button.
  	onClick: text =>{
-   ////Markdown////
+ 		////Markdown////
  		////Hyperlink without linktext / Image without alt text
  		//e.g. [](https://www.google.com) or ![](https://www.google.com/google.png)
  		text=text.split(/\n/).map(line => line.replace(/!?\[\]\((https?:\/\/[\w/:%#\$&\?\(\)~\.=\+\-]+)\)/g,'[$1]')).join('\n')
