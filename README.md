@@ -22,6 +22,7 @@ Only these twelve conversions are avaiable.
   - `!(2019-09-08 10:00)` --> `2019-09-08 10:00`
 - `@` for hashtag(`@hoge` --> `#hoge`)
 - LaTeX(`$$E=mc^2$$` --> `[$ E=mc^2]`)
+- Code block(\`\`\`hoge\`\`\` --> \`hoge\`)
 - Each four indents on a item(=a line) is converted to one indent.
 
 ## How to setup
