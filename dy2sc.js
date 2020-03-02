@@ -20,6 +20,10 @@
  		text=text.split(/\n/).map(line => line.replace(/\~\~(\~+|[^~]+)\~\~/g,'[- $1]')).join('\n')
  		////Date e.g. !(2019-09-11) or !(2019-09-11 10:00)////
  		text=text.split(/\n/).map(line => line.replace(/\!\(([0-9]{4}\-[0-9]{2}\-[0-9]{2}( [0-9]{2}:[0-9]{2})*)\)/g,'$1')).join('\n')
+ 		////Date range e.g. !(2020-03-01 - 2020-03-10)
+ 		text=text.split(/\n/).map(line => line.replace(/\!\(([0-9]{4}\-[0-9]{2}\-[0-9]{2}) \- ([0-9]{4}\-[0-9]{2}\-[0-9]{2})\) */g,'$1 - $2')).join('\n')
+ 		////Date range e.g. !(2020-03-01 01:00 - 2020-03-10 08:00) 
+ 		text=text.split(/\n/).map(line => line.replace(/\!\(([0-9]{4}\-[0-9]{2}\-[0-9]{2} [0-9]{2}:[0-9]{2}) \- ([0-9]{4}\-[0-9]{2}\-[0-9]{2} [0-9]{2}:[0-9]{2})\) */g,'$1 - $2')).join('\n')
  		////@ for hashtag////
  		//@ at the beginning of a line
  		text=text.split(/\n/).map(line => line.replace(/^(\s*)@/g,'$1#')).join('\n')
