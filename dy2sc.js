@@ -18,6 +18,8 @@
  		text=text.split(/\n/).map(line => line.replace(/\_\_(\_+|[^_]+)\_\_/g,'[/ $1]')).join('\n')
  		////Line strikethrough
  		text=text.split(/\n/).map(line => line.replace(/\~\~(\~+|[^~]+)\~\~/g,'[- $1]')).join('\n')
+ 		//Higilighting
+ 		text=text.split(/\n/).map(line => line.replace(/==(=+|[^=]+)==/g,'[* $1]')).join('\n')
  		////Date e.g. !(2019-09-11) or !(2019-09-11 10:00)////
  		text=text.split(/\n/).map(line => line.replace(/\!\(([0-9]{4}\-[0-9]{2}\-[0-9]{2}( [0-9]{2}:[0-9]{2})*)\)/g,'$1')).join('\n')
  		////Date range e.g. !(2020-03-01 - 2020-03-10)
