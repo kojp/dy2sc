@@ -14,18 +14,18 @@ Only these 16 conversions are avaiable.
 - Image
   - `![alt text](URL)` --> `[alt text URL]`
   - `![](URL)` --> `[URL]`
-- Bold(`**hoge**` --> `[* hoge]`)
-- Italic(`__hoge__` --> `[/ hoge]`)
-- Line-through(`~~hoge~~` --> `[- hoge]`)
-- Highlighting（`==hoge==` --> `[* hoge]`）
+- Bold (`**hoge**` --> `[* hoge]`)
+- Italic (`__hoge__` --> `[/ hoge]`)
+- Line-through (`~~hoge~~` --> `[- hoge]`)
+- Highlighting --> Bold (`==hoge==` --> `[* hoge]`)
 - Date
   - `!(2019-09-08)` --> `2019-09-08`
   - `!(2019-09-08 10:00)` --> `2019-09-08 10:00`
   - `!(2020-03-02 - 2020-03-10)` --> `2020-03-02 - 2020-03-10`
   - `!(2020-03-03 01:00 - 2020-03-06 01:00)` --> `2020-03-03 01:00 - 2020-03-06 01:00`
-- `@` for hashtag(`@hoge` --> `#hoge`)
-- TeX(`$$E=mc^2$$` --> `[$ E=mc^2]`)
-- Code block(\`\`\`hoge\`\`\` --> \`hoge\`)
+- `@` for hashtag (`@hoge` --> `#hoge`)
+- LaTeX --> TeX (`$$E=mc^2$$` --> `[$ E=mc^2]`)
+- Code block (\`\`\`hoge\`\`\` --> \`hoge\`)
 - Each four indents on a item(=a line) is converted to one indent.
 
 ## How to setup
