@@ -24,7 +24,7 @@ Only these 16 conversions are avaiable.
   - `!(2020-03-02 - 2020-03-10)` --> `2020-03-02 - 2020-03-10`
   - `!(2020-03-03 01:00 - 2020-03-06 01:00)` --> `2020-03-03 01:00 - 2020-03-06 01:00`
 - `@` for hashtag(`@hoge` --> `#hoge`)
-- LaTeX(`$$E=mc^2$$` --> `[$ E=mc^2]`)
+- TeX(`$$E=mc^2$$` --> `[$ E=mc^2]`)
 - Code block(\`\`\`hoge\`\`\` --> \`hoge\`)
 - Each four indents on a item(=a line) is converted to one indent.
 
