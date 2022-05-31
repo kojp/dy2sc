@@ -7,7 +7,7 @@ Only those exported in [plain text format](https://gyazo.com/acb6e51ab40187b88fc
 日本語による詳しい説明は[こちら](http://ich.hatenadiary.com/entry/dynalist-to-scrapbox-userscript)です。
 
 ## Before and after conversion
-Only these twelve conversions are avaiable.
+Only these 16 conversions are avaiable.
 - Hyperlink
   - `[link_text](URL)` --> `[link_text URL]`
   - `[](URL)` --> `[URL]`
@@ -17,6 +17,7 @@ Only these twelve conversions are avaiable.
 - Bold(`**hoge**` --> `[* hoge]`)
 - Italic(`__hoge__` --> `[/ hoge]`)
 - Line-through(`~~hoge~~` --> `[- hoge]`)
+- Highlighting（`==hoge==` --> `[* hoge]`）
 - Date
   - `!(2019-09-08)` --> `2019-09-08`
   - `!(2019-09-08 10:00)` --> `2019-09-08 10:00`
