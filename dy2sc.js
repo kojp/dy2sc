@@ -35,7 +35,7 @@
  		text=text.split(/\n/).map(line => line.replace(/\$\$([^$$]+)\$\$/g,'[\$ $1]')).join('\n')
  		////Code block
  		text=text.split(/\n/).map(line => line.replace(/```/g,'`')).join('\n')
- 		////Each four indents in a item(=a line)////
+ 		////Each four indents in an item(=a line)////
  		text=text.split(/\n/).map(line => line.replace(/\s{4}/g,' ')).join('\n')
  		return text;
  	}
